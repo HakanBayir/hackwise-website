@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://odtu.cyberwise.com/sitemap.xml
+Sitemap: https://hackwise.org/sitemap.xml

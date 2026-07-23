@@ -4,25 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title data-i18n="meta.title">HackWise 2026 | Cyberwise × ODTÜ</title>
-    <meta name="description" data-i18n="meta.desc" content="HackWise 2026: Cyberwise ve ODTÜ iş birliğiyle düzenlenen tek günlük siber güvenlik etkinliği. Ekim 2026, ODTÜ kampüsü. Başvurular açık." />
+    <meta name="description" data-i18n="meta.desc" content="HackWise 2026: Cyberwise ve ODTÜ iş birliğiyle 3-4-5 Ekim'de ODTÜ kampüsünde düzenlenen üç günlük siber güvenlik etkinliği. Başvurular açık." />
 
-    <link rel="canonical" href="https://odtu.cyberwise.com/" />
+    <link rel="canonical" href="https://hackwise.org/" />
     <meta name="robots" content="index, follow" />
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="HackWise 2026" />
     <meta property="og:title" content="HackWise 2026 | Cyberwise × ODTÜ" />
-    <meta property="og:description" content="HackWise 2026: Cyberwise ve ODTÜ iş birliğiyle düzenlenen tek günlük siber güvenlik etkinliği. Ekim 2026, ODTÜ kampüsü. Başvurular açık." />
-    <meta property="og:url" content="https://odtu.cyberwise.com/" />
-    <meta property="og:image" content="https://odtu.cyberwise.com/assets/cw-odtu-lockup.jpeg" />
+    <meta property="og:description" content="HackWise 2026: Cyberwise ve ODTÜ iş birliğiyle 3-4-5 Ekim'de ODTÜ kampüsünde düzenlenen üç günlük siber güvenlik etkinliği. Başvurular açık." />
+    <meta property="og:url" content="https://hackwise.org/" />
+    <meta property="og:image" content="https://hackwise.org/assets/cw-odtu-lockup.jpeg" />
+    <meta property="og:image:width" content="1280" />
+    <meta property="og:image:height" content="572" />
     <meta property="og:image:alt" content="Cyberwise × ODTÜ" />
     <meta property="og:locale" content="tr_TR" />
     <meta property="og:locale:alternate" content="en_US" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="HackWise 2026 | Cyberwise × ODTÜ" />
-    <meta name="twitter:description" content="HackWise 2026: Cyberwise ve ODTÜ iş birliğiyle düzenlenen tek günlük siber güvenlik etkinliği. Ekim 2026, ODTÜ kampüsü. Başvurular açık." />
-    <meta name="twitter:image" content="https://odtu.cyberwise.com/assets/cw-odtu-lockup.jpeg" />
+    <meta name="twitter:description" content="HackWise 2026: Cyberwise ve ODTÜ iş birliğiyle 3-4-5 Ekim'de ODTÜ kampüsünde düzenlenen üç günlük siber güvenlik etkinliği. Başvurular açık." />
+    <meta name="twitter:image" content="https://hackwise.org/assets/cw-odtu-lockup.jpeg" />
 
     <link rel="icon" href="assets/cyb_favicon.ico" sizes="any" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -30,7 +32,15 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
       rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
     />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
     <link rel="stylesheet" href="styles.css" />
     <meta name="theme-color" content="#07090d" />
 
@@ -39,8 +49,9 @@
       "@context": "https://schema.org",
       "@type": "Event",
       "name": "HackWise 2026",
-      "description": "Cyberwise ve ODTÜ iş birliğiyle düzenlenen tek günlük siber güvenlik etkinliği: teknik oturumlar, atölyeler, CTF ve kariyer sohbetleri.",
-      "startDate": "2026-10",
+      "description": "Cyberwise ve ODTÜ iş birliğiyle düzenlenen üç günlük siber güvenlik etkinliği: teknik oturumlar, atölyeler, CTF ve kariyer sohbetleri.",
+      "startDate": "2026-10-03",
+      "endDate": "2026-10-05",
       "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
       "eventStatus": "https://schema.org/EventScheduled",
       "location": {
@@ -48,15 +59,30 @@
         "name": "ODTÜ Kampüsü",
         "address": {
           "@type": "PostalAddress",
-          "addressLocality": "Ankara",
+          "streetAddress": "Üniversiteler Mahallesi, Dumlupınar Bulvarı No:1",
+          "postalCode": "06800",
+          "addressLocality": "Çankaya",
+          "addressRegion": "Ankara",
           "addressCountry": "TR"
         }
       },
-      "image": "https://odtu.cyberwise.com/assets/cw-odtu-lockup.jpeg",
-      "url": "https://odtu.cyberwise.com/",
+      "offers": {
+        "@type": "Offer",
+        "price": 0,
+        "priceCurrency": "TRY",
+        "availability": "https://schema.org/InStock",
+        "url": "https://hackwise.org/"
+      },
+      "image": "https://hackwise.org/assets/cw-odtu-lockup.jpeg",
+      "url": "https://hackwise.org/",
+      "sameAs": [
+        "https://instagram.com/hackwiseconf",
+        "https://x.com/hackwiseconf",
+        "https://www.linkedin.com/in/hackwise-conf/"
+      ],
       "isAccessibleForFree": true,
       "organizer": [
-        { "@type": "Organization", "name": "Cyberwise", "url": "https://www.cyberwise.com.tr" },
+        { "@type": "Organization", "name": "Cyberwise", "url": "https://www.cyberwise.com" },
         { "@type": "Organization", "name": "Orta Doğu Teknik Üniversitesi", "url": "https://www.metu.edu.tr" }
       ]
     }
@@ -67,7 +93,7 @@
       <div class="nav-inner" id="nav-inner">
         <div class="container-page nav-row">
           <a href="#top" class="nav-brand" aria-label="Cyberwise × ODTÜ">
-            <img src="assets/cw-white.png" alt="Cyberwise" class="nav-logo" />
+            <img src="assets/cw-white.webp" alt="Cyberwise" class="nav-logo" width="277" height="72" />
           </a>
 
           <nav class="nav-links">
@@ -114,15 +140,16 @@
         <div class="hero-fade"></div>
 
         <div class="hero-content">
-          <img src="assets/logo.png" alt="Cyberwise × ODTÜ" class="hero-logo" />
-          <p class="eyebrow" data-i18n="hero.eyebrow">Ekim 2026 · ODTÜ, Ankara</p>
+          <img src="assets/logo.webp" alt="Cyberwise × ODTÜ" class="hero-logo" width="964" height="340" fetchpriority="high" />
+          <p class="eyebrow" data-i18n="hero.eyebrow">3-4-5 Ekim 2026 · ODTÜ, Ankara</p>
           <h1>
             <span data-i18n="hero.title1">HackWise</span>
             <span class="hl" data-i18n="hero.title2">2026</span>
           </h1>
           <p class="hero-sub" data-i18n="hero.sub">
-            Cyberwise ve ODTÜ'nün ortak düzenlediği tek günlük etkinlik. Teknik sunumlar,
-            uygulamalı atölyeler ve kariyer paneli. Katılım ücretsiz, kontenjan sınırlı.
+            Siber güvenliğin farklı disiplinlerini bir araya getiren etkinlikte teknik konuşmalar,
+            uygulamalı oturumlar, CTF'ler, yarışmalar ve kariyer sohbetleriyle dolu üç gün bizi
+            bekliyor. 3-4-5 Ekim'de ODTÜ'de buluşuyoruz!
           </p>
           <div class="hero-cta">
             <a href="#" class="btn-primary" data-apply>
@@ -133,7 +160,7 @@
           </div>
         </div>
 
-        <div class="hero-corner br" data-i18n="hero.corner">EKİM 2026</div>
+        <div class="hero-corner br" data-i18n="hero.corner">3-4-5 EKİM 2026</div>
 
         <div class="scroll-cue">
           <span data-i18n="hero.scroll">KAYDIR</span>
@@ -147,8 +174,8 @@
           <div class="info-grid">
             <div class="info-cell">
               <div class="k" data-i18n="meta.dateK">Tarih</div>
-              <div class="v" data-i18n="meta.dateV">Ekim 2026</div>
-              <div class="s" data-i18n="meta.dateS">Kesin tarih duyurulacak</div>
+              <div class="v" data-i18n="meta.dateV">3-4-5 Ekim 2026</div>
+              <div class="s" data-i18n="meta.dateS">Cumartesi – Pazartesi, 3 gün</div>
             </div>
             <div class="info-cell">
               <div class="k" data-i18n="meta.placeK">Yer</div>
@@ -175,12 +202,12 @@
             <div>
               <p class="eyebrow" data-i18n="about.eyebrow">Etkinlik Hakkında</p>
               <h2 class="section-title gradient-text" style="margin-top:1.25rem" data-i18n="about.title">
-                Cyberwise ekibi ODTÜ'de
+                Cyberwise, sahadaki deneyimiyle ODTÜ'de
               </h2>
               <p class="section-lead" data-i18n="about.lead">
-                Ekim'de ODTÜ kampüsünde bir günlük siber güvenlik etkinliği düzenliyoruz.
+                3-4-5 Ekim'de ODTÜ kampüsünde üç günlük siber güvenlik etkinliği düzenliyoruz.
                 Sızma testinden SOC'a, tehdit istihbaratından olay müdahaleye Cyberwise'ın
-                her departmanından onlarca deneyimli uzman gün boyu sahada olacak. Amaç basit:
+                her departmanından onlarca deneyimli uzman üç gün boyunca sahada olacak. Amaç basit:
                 işin gerçeğini birinci elden anlatmak, öğrencilerle sektörü aynı ortamda buluşturmak.
               </p>
               <ul class="about-list">
@@ -199,7 +226,7 @@
               </ul>
             </div>
             <div class="about-visual">
-              <img src="assets/cw-odtu-lockup.jpeg" alt="Cyberwise × ODTÜ" />
+              <img src="assets/cw-odtu-lockup.webp" alt="Cyberwise × ODTÜ" width="1280" height="572" loading="lazy" />
               <span class="visual-label" data-i18n="about.visualLabel">RESMİ İŞ BİRLİĞİ</span>
             </div>
           </div>
@@ -211,18 +238,17 @@
           <div class="reveal">
             <p class="eyebrow" data-i18n="who.eyebrow">Katılım</p>
             <h2 class="section-title gradient-text" style="margin-top:1.25rem" data-i18n="who.title">Kimler katılabilir?</h2>
-            <p class="section-lead" data-i18n="who.lead">Bölüm ya da deneyim seviyesi fark etmiyor. Siber güvenliğe duyulan ilgi ve merak yeterli.</p>
           </div>
           <div class="grid-cards cols-3">
             <div class="card feature audience card-hover reveal">
               <div class="icon"><svg viewBox="0 0 24 24"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg></div>
               <h3 data-i18n="who.t1">Öğrenciler</h3>
-              <p data-i18n="who.d1">Siber güvenliği yakından tanımak veya bu alanda kariyer yapmak isteyen lisans ve lisansüstü öğrencileri.</p>
+              <p data-i18n="who.d1">Siber güvenliği yakından tanımak veya bu alanda kariyer yapmak isteyen üniversite öğrencileri.</p>
             </div>
             <div class="card feature audience card-hover reveal">
               <div class="icon"><svg viewBox="0 0 24 24"><path d="M12 12h.01"/><path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/><path d="M22 13a18.15 18.15 0 0 1-20 0"/><rect width="20" height="14" x="2" y="6" rx="2"/></svg></div>
               <h3 data-i18n="who.t2">Genç Profesyoneller</h3>
-              <p data-i18n="who.d2">Kariyerinin ilk yıllarında olan ve siber güvenlikte farklı uzmanlık alanlarını keşfetmek isteyen profesyoneller.</p>
+              <p data-i18n="who.d2">Siber güvenlikte farklı uzmanlık alanlarını keşfetmek isteyen profesyoneller.</p>
             </div>
             <div class="card feature audience card-hover reveal">
               <div class="icon"><svg viewBox="0 0 24 24"><circle cx="6" cy="19" r="3"/><path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15"/><circle cx="18" cy="5" r="3"/></svg></div>
@@ -236,101 +262,23 @@
       <section id="akis" class="section-pad">
         <div class="container-page">
           <div class="reveal">
-            <p class="eyebrow" data-i18n="agenda.eyebrow">Gün Akışı</p>
+            <p class="eyebrow" data-i18n="agenda.eyebrow">Program</p>
             <h2 class="section-title gradient-text" style="margin-top:1.25rem" data-i18n="agenda.title">Etkinlik Takvimi</h2>
-            <p class="section-lead" data-i18n="agenda.lead">Kesin saatler ve konuşmacılar başvuru sürecinde duyurulacak.</p>
           </div>
 
-          <div class="schedule reveal">
-            <div class="sch-group" data-i18n="agenda.g1">Sabah</div>
-
-            <div class="sch-row">
-              <div class="sch-time">09:30 – 10:00</div>
-              <div>
-                <div class="sch-title" data-i18n="agenda.t1">Kayıt & Karşılama</div>
-                <p class="sch-desc" data-i18n="agenda.d1">Katılımcı kaydı, yaka kartlarının teslimi ve etkinlik alanına giriş.</p>
-              </div>
+          <div class="sch-soon card reveal">
+            <h3 class="sch-soon-title" data-i18n="agenda.soonTitle">Program çok yakında</h3>
+            <p class="sch-soon-desc" data-i18n="agenda.soonDesc">
+              Üç günlük etkinlik akışı; oturumlar, atölyeler ve konuşmacılar netleştiğinde
+              burada yayınlanacak. Başvuru yapanlar e-posta ile de bilgilendirilecek.
+            </p>
+            <div class="sch-soon-days">
+              <span data-i18n="agenda.soonD1">3 Ekim Cumartesi</span>
+              <span data-i18n="agenda.soonD2">4 Ekim Pazar</span>
+              <span data-i18n="agenda.soonD3">5 Ekim Pazartesi</span>
             </div>
-
-            <div class="sch-row">
-              <div class="sch-time">10:00 – 10:30</div>
-              <div>
-                <div class="sch-title" data-i18n="agenda.t2">Açılış</div>
-                <p class="sch-desc" data-i18n="agenda.d2">Cyberwise ve ODTÜ temsilcilerinin açılış konuşmaları.</p>
-              </div>
-            </div>
-
-            <div class="sch-row">
-              <div class="sch-time">10:30 – 12:30</div>
-              <div>
-                <div class="sch-title" data-i18n="agenda.t3">Teknik Oturumlar</div>
-                <p class="sch-desc" data-i18n="agenda.d3">Tehdit istihbaratı, sızma testi, SOC, olay müdahale ve güvenlik yönetişimi ekiplerinden sunumlar.</p>
-                <div class="sch-subs">
-              <div class="sch-sub">
-                <span class="sch-sub-icon"><svg viewBox="0 0 24 24"><path d="M19.07 4.93A10 10 0 0 0 6.99 3.34"/><path d="M4 6h.01"/><path d="M2.29 9.62A10 10 0 1 0 21.31 8.35"/><path d="M16.24 7.76A6 6 0 1 0 8.23 16.67"/><path d="M12 18h.01"/><path d="M17.99 11.66A6 6 0 0 1 15.77 16.67"/><circle cx="12" cy="12" r="2"/><path d="m13.41 10.59 5.66-5.66"/></svg></span>
-                <div>
-                  <span class="sch-sub-title" data-i18n="topics.t1">Tehdit İstihbaratı</span>
-                  <span class="sch-sub-desc" data-i18n="topics.d1">Açık kaynaklardan dark web'e uzanan tehdit takibi; veri sızıntıları, saldırgan davranışları ve gerçek vakalar üzerinden incelenecek.</span>
-                </div>
-              </div>
-              <div class="sch-sub">
-                <span class="sch-sub-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="22" x2="18" y1="12" y2="12"/><line x1="6" x2="2" y1="12" y2="12"/><line x1="12" x2="12" y1="6" y2="2"/><line x1="12" x2="12" y1="22" y2="18"/></svg></span>
-                <div>
-                  <span class="sch-sub-title" data-i18n="topics.t2">Sızma Testi & Red Team</span>
-                  <span class="sch-sub-desc" data-i18n="topics.d2">Bir kurum saldırganın gözünden nasıl görünür? Keşif, ilk erişim ve güvenlik açıklarının istismarına uzanan süreç gerçekçi senaryolarla ele alınacak.</span>
-                </div>
-              </div>
-              <div class="sch-sub">
-                <span class="sch-sub-icon"><svg viewBox="0 0 24 24"><path d="M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2"/></svg></span>
-                <div>
-                  <span class="sch-sub-title" data-i18n="topics.t3">SOC & Mavi Takım</span>
-                  <span class="sch-sub-desc" data-i18n="topics.d3">Bir güvenlik operasyon merkezinde olaylar nasıl izlenir, alarmlar nasıl önceliklendirilir ve doğru tespit nasıl geliştirilir? Mavi takımın günlük çalışma pratiğine yakından bakacağız.</span>
-                </div>
-              </div>
-              <div class="sch-sub">
-                <span class="sch-sub-icon"><svg viewBox="0 0 24 24"><path d="M12 10a2 2 0 0 0-2 2c0 1.02-.1 2.51-.26 4"/><path d="M14 13.12c0 2.38 0 6.38-1 8.88"/><path d="M17.29 21.02c.12-.6.43-2.3.5-3.02"/><path d="M2 12a10 10 0 0 1 18-6"/><path d="M2 16h.01"/><path d="M21.8 16c.2-2 .131-5.354 0-6"/><path d="M5 19.5C5.5 18 6 15 6 12a6 6 0 0 1 .34-2"/><path d="M8.65 22c.21-.66.45-1.32.57-2"/><path d="M9 6.8a6 6 0 0 1 9 5.2v2"/></svg></span>
-                <div>
-                  <span class="sch-sub-title" data-i18n="topics.t4">Olay Müdahale & DFIR</span>
-                  <span class="sch-sub-desc" data-i18n="topics.d4">Bir ihlalin ilk sinyalinden kök neden analizine kadar geçen süreç; müdahale, delil toplama ve adli analiz adımlarıyla anlatılacak.</span>
-                </div>
-              </div>
-              <div class="sch-sub">
-                <span class="sch-sub-icon"><svg viewBox="0 0 24 24"><path d="M12 3v18"/><path d="m19 8 3 8a5 5 0 0 1-6 0zV7"/><path d="M3 7h1a17 17 0 0 0 8-2 17 17 0 0 0 8 2h1"/><path d="m5 8 3 8a5 5 0 0 1-6 0zV7"/><path d="M7 21h10"/></svg></span>
-                <div>
-                  <span class="sch-sub-title" data-i18n="topics.t5">GRC & Danışmanlık</span>
-                  <span class="sch-sub-desc" data-i18n="topics.d5">Siber güvenliğin yönetişim tarafı; risk, uyum, denetim ve danışmanlık ekiplerinin kurumlarda nasıl çalıştığı ve bu alandaki kariyer yolları konuşulacak.</span>
-                </div>
-              </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="sch-row">
-              <div class="sch-time">12:30 – 13:30</div>
-              <div>
-                <div class="sch-title" data-i18n="agenda.t4">Öğle Arası</div>
-                <p class="sch-desc" data-i18n="agenda.d4">Yemek ve serbest networking.</p>
-              </div>
-            </div>
-
-            <div class="sch-group" data-i18n="agenda.g2">Öğleden Sonra</div>
-
-            <div class="sch-row">
-              <div class="sch-time">13:30 – 16:00</div>
-              <div>
-                <div class="sch-title" data-i18n="agenda.t5">Atölyeler & Yarışmalar</div>
-                <p class="sch-desc" data-i18n="agenda.d5">Katılımcıların doğrudan dahil olacağı uygulamalı oturumlar, CTF ve yarışma formatları. Paralel ilerler; seçim kayıt sırasında yapılacak.</p>
-              </div>
-            </div>
-
-            <div class="sch-row">
-              <div class="sch-time">16:00 – 17:00</div>
-              <div>
-                <div class="sch-title" data-i18n="agenda.t6">Kariyer Buluşması & Kapanış</div>
-                <p class="sch-desc" data-i18n="agenda.d6">Sektör profesyonelleriyle soru-cevap, kariyer sohbetleri ve networking ile günün kapanışı.</p>
-              </div>
-            </div>
-          </div></div>
+          </div>
+        </div>
       </section>
 
       <section class="section-pad" id="basvuru">
@@ -352,7 +300,6 @@
                   <svg class="arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
                 </a>
               </div>
-              <p class="panel-note" data-i18n="apply.note">Başvurular Google Forms üzerinden toplanır.</p>
             </div>
           </div>
         </div>
@@ -365,32 +312,50 @@
         <div class="footer-inner">
           <div class="footer-brand">
             <a href="#top" class="nav-brand" aria-label="Cyberwise × ODTÜ">
-              <img src="assets/cw-white.png" alt="Cyberwise" class="footer-logo" />
+              <img src="assets/cw-white.webp" alt="Cyberwise" class="footer-logo" width="277" height="72" loading="lazy" />
             </a>
-            <p data-i18n="footer.about">
-              Cyberwise ve ODTÜ'nün ortak düzenlediği tek günlük siber güvenlik etkinliği.
-              Ekim 2026, ODTÜ kampüsü.
-            </p>
+            <div class="footer-social">
+              <a href="https://instagram.com/hackwiseconf" target="_blank" rel="noopener" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+              </a>
+              <a href="https://x.com/hackwiseconf" target="_blank" rel="noopener" aria-label="X">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              </a>
+              <a href="https://www.linkedin.com/in/hackwise-conf/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+              </a>
+            </div>
           </div>
           <div class="footer-col">
-            <h4 data-i18n="footer.navTitle">Sayfa</h4>
+            <h3 data-i18n="footer.navTitle">Sayfa</h3>
             <ul>
               <li><a href="#hakkinda" data-i18n="nav.about">Hakkında</a></li>
               <li><a href="#katilimci" data-i18n="nav.who">Katılımcılar</a></li>
               <li><a href="#akis" data-i18n="nav.agenda">Akış</a></li>
+              <li><a href="#" data-apply data-i18n="cta.apply">Başvur</a></li>
             </ul>
           </div>
           <div class="footer-col">
-            <h4 data-i18n="footer.contactTitle">İletişim</h4>
-            <ul>
-              <li><a href="mailto:info@example.com">info@example.com</a></li>
-              <li><a href="#" data-apply data-i18n="cta.apply">Başvur</a></li>
+            <h3 data-i18n="footer.contactTitle">İletişim</h3>
+            <ul class="footer-contact">
+              <li>
+                <svg viewBox="0 0 24 24"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                <a href="mailto:wisecamp@cyberwise.com.tr">wisecamp@cyberwise.com.tr</a>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span data-i18n="footer.venue">ODTÜ Kampüsü, Ankara</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/></svg>
+                <span data-i18n="footer.date">3-4-5 Ekim 2026</span>
+              </li>
             </ul>
           </div>
         </div>
         <div class="footer-bottom">
-          <span data-i18n="footer.rights">© 2026 Cyberwise × ODTÜ</span>
-          <span class="footer-tag" data-i18n="footer.tag">EKİM 2026 · ANKARA</span>
+          <span data-i18n="footer.rights">© 2026 Cyberwise × ODTÜ · Tüm hakları saklıdır.</span>
+          <span class="footer-tag" data-i18n="footer.tag">3-4-5 EKİM 2026 · ANKARA</span>
         </div>
       </div>
     </footer>
