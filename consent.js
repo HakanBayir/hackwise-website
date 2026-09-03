@@ -90,7 +90,6 @@
       btn.addEventListener("click", () => {
         const choice = btn.getAttribute("data-consent");
         writeConsent(choice);
-        observer.disconnect();
         box.remove();
         if (choice === "accepted") loadTagManager();
       })
